@@ -1,0 +1,28 @@
+.personal_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  width: 600px;
+  border: 1px solid rgba(162, 162, 162, 0.1);
+  border-radius: 2rem;
+  box-shadow: 2px 2px 7px -2px rgb(166, 166, 166);
+  padding: 1rem 3rem;
+  transition: 800ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.personal_info .name {
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+.personal_info .country {
+  font-size: 1.6rem;
+}
+
+@media (min-width: 600px) {
+  .personal_info .country {
+    font-size: 2rem;
+  }
+}
